@@ -20,7 +20,7 @@ class Output : Fragment(R.layout.fragment_output) {
         ans.text = OutputArgs.fromBundle(requireArguments()).amount.toString()
 
         next.setOnClickListener{
-            val amount = OutputArgs.fromBundle(requireArguments()).amount.toString().toString()
+            val amount = OutputArgs.fromBundle(requireArguments()).amount.toString()
             if (amount.isEmpty()){
                 return@setOnClickListener
             }

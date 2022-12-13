@@ -38,7 +38,7 @@
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" >
         <argument
-            android:name="amount"
+            android:name="amount1"
             app:argType="integer"
             android:defaultValue="1" />
     </fragment>
